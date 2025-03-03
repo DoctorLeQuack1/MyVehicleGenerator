@@ -53,3 +53,6 @@ For more details, visit: [MIT License](https://opensource.org/licenses/MIT)
 - Check out my GitHub for more interesting projects: [DoctorLeQuack1](https://github.com/DoctorLeQuack1).
 - For any questions regarding this project, feel free to contact me at: **sergioa430@gmail.com**.
 
+## Walkthrough video link:
+[Module 8 - Vehicle Generator](https://www.youtube.com/watch?v=2ft41bkFoWI)
+
