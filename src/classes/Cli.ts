@@ -253,7 +253,7 @@ class Cli {
         parseInt(ans.year),
         parseInt(ans.weight),
         parseInt(ans.topSpeed),
-        []
+        ans.wheels
     );
     // push the car to the vehicles array
     this.vehicles.push(motorbike);
