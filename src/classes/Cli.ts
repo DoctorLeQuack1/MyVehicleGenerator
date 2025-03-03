@@ -3,6 +3,7 @@ import inquirer from "inquirer";
 import Truck from "./Truck.js";
 import Car from "./Car.js";
 import Motorbike from "./Motorbike.js";
+import Wheel from "./Wheel.js";
 import {type} from "node:os";
 
 //process.stdin.setMaxListeners(1000);
@@ -253,7 +254,7 @@ class Cli {
         parseInt(ans.year),
         parseInt(ans.weight),
         parseInt(ans.topSpeed),
-        ans.wheels
+        [new Wheel(ans.frontWheelDiameter, ans.frontWheelBrand), new Wheel(ans.rearWheelDiameter, ans.frontWheelBrand)],
     );
     // push the car to the vehicles array
     this.vehicles.push(motorbike);
